@@ -102,7 +102,6 @@
 .info {
   margin-top: 50px;
   margin-bottom: 150px;
-  color: #1f2937;
 }
 .info-header {
   text-align: center;
@@ -139,7 +138,7 @@ p.info {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
-  padding: 200px;
+  padding: 50px 20px;
 }
 .quote {
   max-width: 800px;
@@ -154,55 +153,4 @@ p.info {
   text-align: right;
   font-weight: bold;
   font-size: 20px;
-}
-.cta-background {
-  background-color: #3882f6;
-  padding: 50px 20px;
-  display: flex;
-  justify-content: center;
-  margin: 100px auto;
-  max-width: 1000px;
-  border-radius: 10px;
-}
-
-.cta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1000px;
-  gap: 100px;
-  padding: 40px 60px;
-  background-color: #3882f6;
-  border-radius: 10px;
-}
-
-.cta-text {
-  color: #f9faf8;
-}
-
-.cta-header {
-  margin: 0;
-  font-size: 24px;
-}
-
-.cta-txt {
-  margin: 0;
-  font-size: 18px;
-  color: #e5e7eb;
-}
-
-.cta-btn {
-  background-color: #3882f6;
-  color: #f9faf8;
-  font-weight: bold;
-  border: 2px solid #f9faf8;
-  padding: 10px 30px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-.footer {
-  background-color: #1f2937;
-  text-align: center;
-  color: #e5e7eb;
-  padding: 35px;
 }
