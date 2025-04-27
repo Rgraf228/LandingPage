@@ -3,13 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar-background {
+  background-color: #1f2937;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f2937;
-  padding: 20px 150px;
+  padding: 20px 40px;
+  max-width: 1200px;
   color: white;
+  margin: 0 auto;
 }
 
 .logo {
@@ -39,11 +43,12 @@
 
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 100px 150px;
   background-color: #1f2937;
   color: white;
+  gap: 125px;
 }
 
 .hero-text {
@@ -96,6 +101,7 @@
 }
 .info {
   margin-top: 50px;
+  margin-bottom: 150px;
 }
 .info-header {
   text-align: center;
@@ -107,17 +113,44 @@
 .imgsquares {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
+  margin-top: 30px;
 }
 .square {
   border: 4px solid #3882f6;
-  height: 125px;
-  width: 125px;
+  height: 150px;
+  width: 150px;
   border-radius: 15px;
 }
 .column {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 150px;
+  text-align: center;
+}
+p.info {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.background {
+  background-color: #e5e7eb;
+  display: flex;
   justify-content: center;
+  padding: 50px 20px;
+}
+.quote {
+  max-width: 800px;
+  font-style: light italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+.txt {
+  margin-bottom: 20px;
+}
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
 }
